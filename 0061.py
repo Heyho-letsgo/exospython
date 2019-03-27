@@ -1,3 +1,7 @@
+# coding: utf-8
+
+
+
 n = int(input("Saisissez un integer : "))
 print (n)
 m = n
@@ -26,11 +30,8 @@ try:
 		if m % m == 0: 
 			m -= 1
 			i += 1
-		print ("i  = ",i)
+	print ("i  = ",i)
 	if i > 2:
 		print (n, " n'est pas premier")
 except ZeroDivisionError:
-		print (n, " est  premier")
-
-
-	
+	print (n, " est  premier")
